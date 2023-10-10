@@ -38,3 +38,15 @@ h5 {
 .no-margin {
     margin-bottom: 0;
 }
+
+@media screen and (max-width: 1300px) {
+    body, html {
+        font-size: 70%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    h2 {
+        font-size: 3rem;
+    }
+}

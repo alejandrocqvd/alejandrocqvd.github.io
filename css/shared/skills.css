@@ -19,7 +19,7 @@
 .skill-panels {
     min-width: 15vw;
     padding-right: 20px;
-    padding-left: 50px;
+    padding-left: 20px;
     box-sizing: border-box;
     flex: 1;
     border-left: 3px solid rgb(240, 235, 235); 
@@ -198,4 +198,39 @@
 .lol {
     text-align: left;
     margin-top: 40px;
+}
+
+@media screen and (max-width: 1300px) {
+    .skills {
+        max-width: 700px;
+        margin-bottom: 100px;
+    }
+    .panel {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .skills {
+        max-width: 400px;
+        margin-bottom: 100px;
+    }
+    .skill-panels {
+        padding: 0;
+        padding-top: 25px;
+        margin: 0;
+        border: 0px solid;
+    }
+    .panel {
+        transform: scaleY(40%);
+        padding: 0;
+        margin: 0;
+    }
+    .panel-and-title {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .box-img {
+        transform: scaleY(200%);
+    }
 }

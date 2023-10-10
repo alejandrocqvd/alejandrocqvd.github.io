@@ -69,3 +69,48 @@
     font-style: italic;
     font-weight: 400;
 }
+
+@media screen and (max-width: 1300px) {
+    .about {
+        max-width: 700px;
+        margin-bottom: 100px;
+    }
+    .side-by-side-1 {
+        flex-direction: column;
+        align-items: center;
+    }
+    .portrait {
+        padding: 50px;
+        margin-top: 10px;
+        margin-bottom: 50px;
+        width: 70%;
+        aspect-ratio: 16 / 9;
+        flex: none;
+    }
+    .about-me-text {
+        flex: none;
+        padding: 1rem;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .about {
+        max-width: 400px;
+        margin-bottom: 50px;
+    }
+    .portrait {
+        width: 40%;
+        aspect-ratio: 21 / 9;
+        margin-right: 0;
+    }
+    .portrait img {
+        box-shadow: 4px 4px 0px #f0ebeb;
+    }
+    .about-me-text {
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    .quote {
+        margin: 0;
+    }
+}
