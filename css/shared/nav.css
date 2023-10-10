@@ -1,0 +1,45 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    text-align: center;
+    z-index: 1000;
+    transition: background-color 0.4s ease-in-out; 
+}
+
+.navbar.scrolled {
+    background-color: rgba(36, 35, 39, 0.7);
+    backdrop-filter: blur(20px);
+}
+
+.navbar ul {
+    display: flex;
+    padding-right: 20px;
+    margin: 0;
+    align-items: center;
+    justify-content: flex-end;
+    list-style-type: none;
+    overflow: hidden;
+}
+  
+.navbar li a {
+    display: block;
+    padding: 20px;
+    padding-left: 50px;
+    box-sizing: border-box;
+    color: #f0ebeb;
+    text-align: center;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.navbar img {
+    height: 50px;
+    vertical-align: middle;
+    padding-left: 3em;
+}
