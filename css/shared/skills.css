@@ -118,11 +118,11 @@
 
 
 .intellij-box {
-    background-color: #002e47;
+    background-color: #00273b;
 }
 
 .pycharm-box {
-    background-color: #013d5e;
+    background-color: #002f46;
 }
 
 .vscode-box {
@@ -132,13 +132,29 @@
 }
 
 .vim-box {
-    background-color: #014f79;
+    background-color: #003550;
 }
 
 .photoshop-box {
+    background-color: #003d5c;
+}
+
+.bash-box {
+    background-color: #004364;
+}
+
+.git-box {
+    background-color: #004c72;
+}
+
+.mongodb-box {
+    background-color: #005b88;
+}
+
+.mysql-box {
+    background-color: #006597;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
-    background-color: #015f93;
 }
 
 .box-img {
